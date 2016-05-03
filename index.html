@@ -19,37 +19,11 @@
         <![endif]-->
 
         <div id="main">
+          <img id="preloader" style="display:none;" src="/img/394.gif">
           <p>REST api test</p>
-          <button onclick="getData()"><img src="/tile.png" style="vertical-align:middle;width:20px;margin:5px;">Get data from server.</button>
+          <button id="get-data" onclick="getData()"><img src="/tile.png" style="vertical-align:middle;width:20px;margin:5px;">Get data from server.</button>
           <div class="results-container">
-            '<div class="contact-holder">' +
-              '<div class="personal info">' +
-                '<span>Name:</span> + data.name +
-                '<span>Username:</span> + data.username +
-                '<span>Email:</span> + data.email +
-              '</div>
-              '<div class="contacts info">
-                "address": {
-                  "street": "Kulas Light",
-                  "suite": "Apt. 556",
-                  "city": "Gwenborough",
-                  "zipcode": "92998-3874",
-                  "geo": {
-                    "lat": "-37.3159",
-                    "lng": "81.1496"
-                  }
-                },
-                "phone": "1-770-736-8031 x56442",
-                "website": "hildegard.org",
-              </div>
-              <div class="company info">
-                "company": {
-                  "name": "Romaguera-Crona",
-                  "catchPhrase": "Multi-layered client-server neural-net",
-                  "bs": "harness real-time e-markets"
-                }
-              </div>
-            </div>
+
           </div>
         </div>
 

@@ -58,12 +58,33 @@ textarea {
 #main {
   margin: 10px;
 }
-#main p {
-  font: normal small-caps 34px/14px fantasy;
+.contact-holder {
+  border: 1px lightblue solid;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin: 5px;
+  width: 300px;
+  float: left;
+  font-size: 10px;
+}
+.contact-holder span {
+  color: darkblue;
+}
+#preloader {
+  position: absolute;
+  left: 230px;
+  top: 40px;
 }
 
-
-
+.contact-holder span span {
+    color: blue;
+    margin-left: 20px;
+}
+.contact-holder span {
+    color: darkblue;
+    font-size: 14px;
+    margin-left: 10px;
+}
 
 
 
